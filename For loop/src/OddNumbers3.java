@@ -11,3 +11,9 @@ public class OddNumbers3
         }
     }
 }
+
+/* Here we can also use this code : in this code we skip the even numbers directly and start from firs odd number.
+for (int i = 11; i <= 19; i += 2) {
+    System.out.println(i);
+}
+ */
