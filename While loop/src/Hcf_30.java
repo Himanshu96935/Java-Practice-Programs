@@ -1,0 +1,19 @@
+import java.util.*;
+public class Hcf_30
+{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Enter 1st number:");
+        int a = sc.nextInt();
+        System.out.println("Enter 2nd number:");
+        int b = sc.nextInt();
+
+        while (b != 0)
+        {
+            int remainder = a % b;
+            a = b;
+            b = remainder;
+        }
+        System.out.println("HCF = " + a);
+    }
+}
