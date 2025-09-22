@@ -7,18 +7,18 @@ public class JoystringOverloading_2
         Joystring("COMMON WEALTH", "GAMES");
     }
 
-    // 1ST METHOD:
+    // 1ST METHOD to replace charcter in a string:
     public static void Joystring(String s, char ch1, char ch2)
     {
         String result = s.replace(ch1, ch2);
         System.out.println(result);
     }
 
-    // 2nd method:
+    // 2nd method :
     public static void Joystring(String s)
     {
         int firstIndex = s.indexOf(' ');
-        int lastIndex = s.indexOf(' ');
+        int lastIndex = s.lastIndexOf(' ');
         System.out.println("First Index = " + firstIndex);
         System.out.println("Last Index = " + lastIndex);
     }
