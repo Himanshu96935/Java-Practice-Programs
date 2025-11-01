@@ -3,11 +3,11 @@ public class Sum_3
 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
-        int num[] = new int[5];
+        int num[] = new int[30];
 
         int sume = 0, sumo = 0;
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 29; i++)
         {
             System.out.println("enter a number:");
             num[i] = sc.nextInt();
