@@ -13,6 +13,7 @@ public class MarksPrinting {
 
         System.out.println("Phy = " + marks[0]);
         System.out.println("chem = " + marks[1]);
-        System.out.println("maths = " + marks[2]);
+        System.out.println("maths = " + marks[2]);git status
+
     }
 }
